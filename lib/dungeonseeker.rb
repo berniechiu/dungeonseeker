@@ -1,10 +1,10 @@
 class Engine
 
-	def self.initialize(startRoom)
+	def initialize(startRoom)
 		@room = startRoom.new()
 	end
 
-	def self.play()
+	def play()
 		next_challenge = @room.get_first_challenge()
 
 		while true
