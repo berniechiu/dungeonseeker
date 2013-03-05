@@ -4,12 +4,12 @@ require "dungeonseeker/version"
 
 Gem::Specification.new do |s|
   s.name = "dungeonseeker"
-  s.version = '0.0.0'
+  s.version = '0.0.6'
   s.authors = ["Bernie Chiu"]
   s.email = ["bernie_chiu@yahoo.com.tw"]
   s.homepage = ""
-  s.summary = %q{TODO: A simple dungeon game.}
-  s.description = %q{TODO: Go through each room and face something scary}
+  s.summary = %q{A simple dungeon game}
+  s.description = %q{Go through each room and face something scary}
 
   s.rubyforge_project = "dungeonseeker"
 
