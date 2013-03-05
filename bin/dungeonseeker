@@ -1,3 +1,5 @@
 require 'dungeonseeker'
 
-Engine.enterRoom(ARGV[0])
+room = ARGV[0]
+
+Engine.enterRoom(room)
