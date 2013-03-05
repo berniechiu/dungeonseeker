@@ -1,5 +1,4 @@
-require 'dungeonseeker'
+require File.dirname(__FILE__) + '/../lib/dungeonseeker'
 
-room = ARGV[0]
-
-Engine.enterRoom(room)
+runner = DungeonSeeker::Engine.new()
+runner.play
