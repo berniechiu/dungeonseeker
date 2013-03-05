@@ -1,3 +1,4 @@
+# Some game options and messages in the game.
 class GamePlay
 	def initialize(dead_messages)
 		@dead_messages = dead_messages

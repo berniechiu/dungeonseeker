@@ -1,9 +1,11 @@
 class Engine
 
+	# Make a new room class
 	def initialize(startRoom)
 		@room = startRoom.new()
 	end
 
+	# Start the game
 	def play()
 		next_challenge = @room.get_first_challenge()
 
@@ -19,6 +21,7 @@ class Engine
 		end
 	end
 
+	# A test for gem in executable bin file.
 	def self.enterRoom(room)
 		puts "#{room}"
 	end

@@ -1,3 +1,4 @@
+# Rooms created with classes and some challenges created within the class.
 class GoldRoom
 	def initialize()
 		@dead_messages = [
